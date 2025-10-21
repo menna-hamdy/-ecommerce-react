@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import AOS from "aos";   /*Animate On Scroll*/
 import "aos/dist/aos.css";
 
@@ -23,14 +24,14 @@ export default function Home() {
           <p className="lead mb-4" data-aos="fade-up" data-aos-delay="200">
             Find the latest trends and deals just for you
           </p>
-          <a
-            href="/products"
+          <Link
+            to="/products"
             className="btn btn-warning btn-lg px-4"
             data-aos="zoom-in"
             data-aos-delay="400"
           >
             Shop Now <i className="bi bi-arrow-right"></i>
-          </a>
+          </Link>
         </div>
       </section>
 

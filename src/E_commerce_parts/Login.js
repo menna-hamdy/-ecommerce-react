@@ -44,9 +44,14 @@ export default function Login() {
                 Remember me
               </label>
             </div>
-            <a href="#" className="text-warning text-decoration-none">
-              Forgot Password?
-            </a>
+            <button
+                type="button"
+                className="btn btn-link text-warning text-decoration-none p-0"
+                onClick={() => alert("Forgot password clicked!")}
+              >
+                Forgot Password?
+              </button>
+
           </div>
 
           {/* Login Button */}

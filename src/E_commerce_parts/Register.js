@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "../App.css";
@@ -57,9 +58,10 @@ export default function Register() {
           </div>
 
           {/* Submit Button */}
-          <button type="submit" className="btn btn-warning w-100 fw-bold">
-            <i className="bi bi-person-plus me-2"></i> Register
-          </button>
+          <Link to="/login" className="btn btn-warning w-100 fw-bold d-flex justify-content-center align-items-center">
+              <i className="bi bi-person-plus me-2"></i> Register
+            </Link>
+
         </form>
 
         {/* Footer */}

@@ -21,8 +21,8 @@ function E_commerce() {
           <Route path="/products" element={<Products />} />
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contacts/>} />
-          <Route path="/login" element={<Login/>} />
-          <Route path="/register" element={<Register/>} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/carts" element={<Carts/>} />
         </Routes>
       </Router>

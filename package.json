@@ -1,6 +1,6 @@
 {
   "name": "ecommerce",
-  "homepage": "https://menna-hamdy.github.io/-ecommerce-react",
+  "homepage": "https://menna-hamdy.github.io/E-commerce-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,6 +25,7 @@
   "deploy": "gh-pages -d build",
   "test": "react-scripts test",
   "eject": "react-scripts eject"
+
 },
 
   "eslintConfig": {

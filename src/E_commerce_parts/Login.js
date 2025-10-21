@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "../App.css";
@@ -55,9 +56,9 @@ export default function Login() {
           </div>
 
           {/* Login Button */}
-          <button type="submit" className="btn btn-warning w-100 fw-bold">
-            <i className="bi bi-box-arrow-in-right me-2"></i> Login
-          </button>
+          <Link to="/" className="btn btn-warning w-100 fw-bold">
+              <i className="bi bi-box-arrow-in-right me-2"></i> Login
+          </Link>
         </form>
 
         {/* Footer */}
